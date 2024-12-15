@@ -3,372 +3,370 @@
 /*Секция HEADER*/
 
 .header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 92px 24px 96px 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 92px 24px 96px 24px;
 }
 
 .header__menu {
-    margin-right: 9px;
+  margin-right: 9px;
 }
 .header__links-list {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    list-style:circle;
-    font-size: 18px;
-    font-weight: 400;
-    font-family: Raleway;
-    line-height: 21.13px;
-   
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: circle;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Raleway;
+  line-height: 21.13px;
 }
 .header__links-list-item_no-bullit {
-    list-style-type: none;
-    margin: 10px;
+  list-style-type: none;
+  margin: 10px;
 }
 .header__links-list-item {
-    margin: 8px;
-   
+  margin: 8px;
 }
 .header__link {
-    text-decoration: none;
-    border-bottom: 1px solid #000;
-    margin-right: 20px;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+  margin-right: 20px;
 }
 
 .header__link_active {
-    text-decoration: none;
-    margin: 15px;
+  text-decoration: none;
+  margin: 15px;
 }
 
 .header__logo {
-    margin-right: 185px;
+  margin-right: 185px;
 }
 
 .header__logo-image {
-    display: block;
-    width: 148px;
-    height: 105px;
+  display: block;
+  width: 148px;
+  height: 105px;
 }
 .address a {
-    border-bottom: 1px solid #000;
-    text-decoration: none;
+  border-bottom: 1px solid #000;
+  text-decoration: none;
 }
 
 .address {
-    margin-top: 3px;
-    font-style: normal;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24.3px;
+  margin-top: 3px;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
 }
 
 /* Секция COVER */
 
 .cover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url(../images/cover.jpg);
-    height: 757px;
-    display: block;
-    margin-bottom: 179px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-position-x: -140px;
-    background-size: 125%;
-    background-color: rgba(255, 0, 0, 0.5);
-  }
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/cover.jpg);
+  height: 757px;
+  margin-bottom: 179px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position-x: -140px;
+  background-size: 125%;
+  background-color: rgba(255, 0, 0, 0.5);
+}
 .cover__title {
-    color: white;
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 72px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-top: 22px;
+  color: white;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 22px;
 }
 
 .aligned-text {
-    display: block;
-    text-align: left;
-    font-size: 100px;
-    margin-top: 165px;
-    margin-left: 50px;
-    letter-spacing: 31px;
+  display: block;
+  text-align: left;
+  font-size: 100px;
+  margin-top: 165px;
+  margin-left: 50px;
+  letter-spacing: 31px;
 }
 
 .aligned-text_center {
-    display: block;
-    font-size: 100px;
-    margin-top: 56px;
-    margin-left: 338px;
-    letter-spacing: 29px;
+  display: block;
+  font-size: 100px;
+  margin-top: 56px;
+  margin-left: 338px;
+  letter-spacing: 29px;
 }
 
 .aligned-text_right {
-    display: block;
-    font-size: 100px;
-    margin-top: 49px;
-    margin-left: 634px;
-    letter-spacing: 22px;
+  display: block;
+  font-size: 100px;
+  margin-top: 49px;
+  margin-left: 634px;
+  letter-spacing: 22px;
 }
 
 .no-letter-spacing {
-    margin-left: -25px;
+  margin-left: -25px;
 }
 
 .cover__description {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 37px;
-    margin-left: 77px;
-    align-items: center;
-  }
-  
-  .cover__description-text {
-    font-weight: 400;
-    font-size: 22px;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-    word-spacing: 20px;
-  }
-  
-  .letter-spacing-extended {
-    word-spacing: 18px;
-  }
-  
-  .bet-button {
-    font-size: 22px;
-    font-weight: 500;
-    color: #ffffff;
-    background-color: transparent;
-    width: 256px;
-    height: 51px;
-    border-color: #ffffff;
-    border-width: 1px;
-    text-transform: uppercase;
-    margin-right: 51px;
-    margin-bottom: 14px;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 37px;
+  margin-left: 77px;
+  align-items: center;
+}
 
+.cover__description-text {
+  font-weight: 400;
+  font-size: 22px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+  word-spacing: 20px;
+}
 
+.letter-spacing-extended {
+  word-spacing: 18px;
+}
+
+.bet-button {
+  font-size: 22px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: transparent;
+  width: 256px;
+  height: 51px;
+  border-color: #ffffff;
+  border-width: 1px;
+  text-transform: uppercase;
+  margin-right: 51px;
+  margin-bottom: 14px;
+}
 
 /* Секция LOTS */
 
 .lots {
-    margin: auto 24px;
-    margin-bottom: 146px;
-   
+  margin: auto;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 146px;
 }
+
 .lots__heading {
-   font-size: 40px; 
-   font-weight: 700;
-   margin-left: 40px;
-   margin-bottom: 27px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-left: 40px;
+  margin-bottom: 27px;
 }
 
 .lots__card-list {
-    display: flex;
-    flex-direction: row;
-    min-height: 100%;
-    list-style-type: none;
-    margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  min-height: 100%;
+  list-style-type: none;
+  margin-bottom: 30px;
 }
+
 .card-link {
-    display: block;
+  display: block;
 }
 
 .lots__card-list-item {
-    display: flex;
-    flex-grow: 1;
-    
+  display: flex;
+  flex-grow: 1;
 }
 
 .lots__card-list-item:last-child .card__title {
-    padding: 51px 48px 0 40px;
+  padding: 51px 48px 0 40px;
 }
 
 .lots__card-list-item:last-child .card__text {
-    padding: 0 32px 48px 40px;
+  padding: 0 32px 48px 40px;
 }
 
 .lots__card-list-item:first-child .card__text {
-    padding: 0 14px 48px 40px;
+  padding: 0 14px 48px 40px;
 }
 
 .card {
-    width: 334px;
-    height: 563px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-right: 25px;
+  width: 334px;
+  height: 563px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 25px;
 }
 
 .card_type_film {
-    padding-right: 25px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-01.jpg);
-    background-repeat: no-repeat;
-    height: 563px;
-    width: 334px;
-    background-position-x: -103px;
-    background-size: 162%;
+  padding-right: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  height: 563px;
+  width: 334px;
+  background-position-x: -103px;
+  background-size: 162%;
 }
+
 .card_type_book {
-    padding-right: 25px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-02.jpg);
-    background-repeat: no-repeat;
-    background-position: 50%;
-    height: 563px;
-    width: 334px;
-    background-position-x: -103px;
-    background-size: 162%;
+  padding-right: 25px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  height: 563px;
+  width: 334px;
+  background-position-x: -103px;
+  background-size: 162%;
 }
 
 .card_type_picture {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/card-lot-03.jpg);
-    background-repeat: no-repeat;
-    height: 563px;
-    width: 334px;
-    background-position-x: -103px;
-    background-size: 162%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  height: 563px;
+  width: 334px;
+  background-position-x: -103px;
+  background-size: 162%;
 }
 
 .card__title {
-    text-decoration: underline;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 22px !important;
-    padding: 51px 10px 0 40px;
-    color: #FFFFFF;
-    font-family: Raleway;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px !important;
+  padding: 51px 10px 0 40px;
+  color: #ffffff;
+  font-family: Raleway;
 }
 
 .card__text {
-    padding: 0 18px 48px 40px;
-    color: #FFFFFF;
-    font-family: Raleway;
-    font-size: 20px;
+  padding: 0 18px 48px 40px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 20px;
 }
 
 .lots__look-more-link {
-    font-size: 20px;
-    font-weight: 400;
-    border-bottom: 1px solid #000;
-    margin-left: 40px;
-    margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  border-bottom: 1px solid #000;
+  margin-left: 40px;
+  margin-top: 30px;
 }
 
 /* Секция ОБ АУКЦИОНЕ */
 
 .about {
-    display: flex;
-    flex-direction: row;
-    
-    margin: 0 0 180px 24px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 180px 24px;
 }
 
 .about__logo {
-    background-color: black;
-    border-radius: 50% ;
-    width: 240px;
-    height: 240px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
-    margin-left: -25px;
+  background-color: black;
+  border-radius: 50%;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-left: -25px;
 }
 
 .about__logo-image {
-    width: 148px;
-    height: 114px;
+  width: 148px;
+  height: 114px;
 }
 
 .about__title {
-    font-size: 40px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-top: 136px;
-    margin-bottom: 100px;
-    margin-left: -72px;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 136px;
+  margin-bottom: 100px;
+  margin-left: -72px;
 }
 
 .about__text {
-    font-size: 20px;
-    font-weight: 400;
-    display: block;
-    margin-bottom: 24px;
-    margin-left: -72px;
-    margin-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 24px;
+  margin-left: -72px;
+  margin-top: 10px;
 }
 
 .about__text:last-child {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 .about__column {
-    padding-inline: 72px;
+  padding-inline: 72px;
 }
 
 .about__column:last-child {
-    padding-right: 29px;
+  padding-right: 29px;
 }
 
 /* Секция FOOTER */
 
 .footer {
-    display: flex;
-    padding: 0px 26px 88px 26px;
-    justify-content: space-between;
-    margin-left: 24px;
-    margin-top: -2px;
+  display: flex;
+  padding: 0px 26px 88px 26px;
+  justify-content: space-between;
+  margin-left: 24px;
+  margin-top: -2px;
 }
 
 .footer__social-icon {
-    width: 48px;
-    height: 48px;
-}
-
-.footer__social-list {
-    list-style-type: none;
+  width: 48px;
+  height: 48px;
 }
 
 .footer__menu-list {
-    list-style-type: none;
-    font-size: 18px;
-    font-weight: 400;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 86px;
-    line-height: 22px;
-    margin-top: -28px;
+  list-style-type: none;
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 86px;
+  line-height: 22px;
+  margin-top: -28px;
 }
 
 .footer__menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer__social-list {
-    display: flex;
-    margin-right: 25px;
-    margin-top: 5px;
+  display: flex;
+  margin-right: 25px;
+  margin-top: 5px;
+  list-style-type: none;
 }
+
 .footer__social-link {
-    padding-left: 48px;
+  padding-left: 48px;
 }
 
 .footer__menu-link {
-    text-decoration: none;
-    border-bottom: 1px solid #000;
+  text-decoration: none;
+  border-bottom: 1px solid #000;
 }
 
 .footer__menu-link_active {
-    text-decoration: none;
+  text-decoration: none;
 }
